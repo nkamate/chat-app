@@ -922,7 +922,6 @@
                 };
                 console.log("sending message on channel :" + loggedInUser.id.toString());
                 socket.emit(loggedInUser.id.toString(), msgPayload);
-                showMessage(msgPayload, true);
             };
 
             $('.submit').click(function () {
