@@ -1,5 +1,5 @@
 -- DROP DATABASE IF EXISTS chat_app;
--- CREATE DATABASE IF NOT EXISTS chat_app;
+CREATE DATABASE IF NOT EXISTS chat_app;
 USE chat_app;
 
 DROP TABLE IF EXISTS user;
@@ -31,5 +31,5 @@ create index conversation_id_fromUser_toUser_index
 
 INSERT INTO chat_app.user (id, username) VALUES (1, 'john');
 INSERT INTO chat_app.user (id, username) VALUES (2, 'pascal');
-INSERT INTO chat_app.user (id, username) VALUES (3, 'Dan');
+INSERT INTO chat_app.user (id, username) VALUES (3, 'dan');
 INSERT INTO chat_app.user (id, username) VALUES (4, 'foo');
